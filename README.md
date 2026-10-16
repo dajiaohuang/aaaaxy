@@ -68,7 +68,7 @@ other platforms some minor porting may be required so save games and
 settings can be retained; in particular see `vfs/state_*.go`.
 
 To build the game for yourself, install `git`, `golang`, `graphviz`,
-`imagemagick` and `pandoc`, and then run:
+`imagemagick`, `pandoc` and `strip-nondeterminism`, and then run:
 
 ``` sh
 git clone https://github.com/divVerent/aaaaxy
